@@ -1,0 +1,5 @@
+name: Hellow World
+description: Hello World Message
+package: Custom
+type: module
+core: 8.x

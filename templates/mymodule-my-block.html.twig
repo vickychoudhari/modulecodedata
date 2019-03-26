@@ -1,0 +1,11 @@
+<ul>
+
+{% for mobile in nodes_build %}
+    <div class="mobile-list">
+        <li><img height="100px" width="100px" src="{{ mobile.image_url }}"></li>
+        <li>{{ mobile.body }}</li>
+        <li>{{ mobile.email }}</li>
+    </div>
+    {% endfor %}
+
+ </ul>
