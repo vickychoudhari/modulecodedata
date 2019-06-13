@@ -7,16 +7,16 @@ use Drupal\Core\Block\BlockBase;
 use Drupal\node\Entity\Node;
 // use Drupal\Core\Form\FormBase;
 /**
-	 * Provides a 'hello' block.
-	 *
-	 * @Block(
-	 *  id = "hello_block",
-	 *  admin_label = @Translation("the block use to create a node  "),
-	 * )
-	 */
+   * Provides a 'hello' block.
+   *
+   * @Block(
+   *  id = "hello_block",
+   *  admin_label = @Translation("To create the the mobile name node in a custom block  "),
+   * )
+   */
 
 class ArticleBlock extends BlockBase {
-	public function build() {
+  public function build() {
 
    
     $nids = \Drupal::entityQuery('node')
